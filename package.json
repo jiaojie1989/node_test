@@ -1,0 +1,23 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "a hello-world program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jiaojie",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "cheerio": "^0.19.0",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.13.3",
+    "iconv-lite": "^0.4.11",
+    "multer": "^1.0.3",
+    "mysql": "^2.8.0",
+    "request": "^2.60.0",
+    "superagent": "^1.2.0",
+    "utility": "^1.4.0"
+  }
+}
