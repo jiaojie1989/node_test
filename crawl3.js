@@ -19,7 +19,7 @@ function request(url, headers, callback) {
 
 app.get('/', function(req, res) {
     function myfunc(error, response, body) {
-        var html = iconv.decode(body, 'gb2312');
+        var html = iconv.decode(body, 'utf-8');
         console.log(body);
         res.send(html);
     }
